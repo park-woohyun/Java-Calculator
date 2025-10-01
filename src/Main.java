@@ -17,5 +17,15 @@ public class Main {
         calc_sub.setNumbers(num1, num2);
         calc_sub.divide();
         calc_sub.displayResult("-");
+
+        Calculator calc_mul = new Calculator();
+        calc_mul.setNumbers(num1, num2);
+        calc_mul.divide();
+        calc_mul.displayResult("*");
+
+        Calculator calc_div = new Calculator();
+        calc_div.setNumbers(num1, num2);
+        calc_div.divide();
+        calc_div.displayResult("/");
     }
 }
