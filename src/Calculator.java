@@ -1,4 +1,4 @@
-class Calculator {
+public class Calculator {
     // 멤버 변수 선언
     protected int num1;
     protected int num2;

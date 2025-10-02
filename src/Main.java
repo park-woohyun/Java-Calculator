@@ -10,17 +10,17 @@ public class Main {
         Calculator calc_add = new Calculator();
 
         calc_add.setNumbers(num1, num2);
-        calc_add.divide();
+        calc_add.add();
         calc_add.displayResult("+");
 
         Calculator calc_sub = new Calculator();
         calc_sub.setNumbers(num1, num2);
-        calc_sub.divide();
+        calc_sub.subtract();
         calc_sub.displayResult("-");
 
         Calculator calc_mul = new Calculator();
         calc_mul.setNumbers(num1, num2);
-        calc_mul.divide();
+        calc_mul.multiply();
         calc_mul.displayResult("*");
 
         Calculator calc_div = new Calculator();
